@@ -1,0 +1,158 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2023, 11:02:54 PM
+    Author     : books
+*/
+
+/* styles2.css */
+
+/* メインセクションのスタイル */
+section#skills {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* スキルのリストスタイル */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* スキルアイテムのスタイル */
+#skills li {
+    margin-bottom: 20px;
+}
+
+/* スキルタイトルのスタイル */
+#skills h4 {
+    color: #0074d9;
+}
+
+/* プロジェクトセクションのスタイル */
+section#special-projects {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* プロジェクトのスタイル */
+#project {
+    margin-bottom: 20px;
+}
+
+/* プロジェクトタイトルのスタイル */
+#project h3 {
+    color: #0074d9;
+}
+
+/* ワークエクスペリエンスのスタイル */
+section#work-experience {
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+/* ワークエクスペリエンステーブルのスタイル */
+
+
+/* プロフェッショナルソサエティのスタイル */
+section#professional-societies {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+/* プロフェッショナルソサエティタイトルのスタイル */
+.professional-societies h3 {
+    color: #0074d9;
+}
+
+section#volunteer-work{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+/* ホビーセクションのスタイル */
+section#hobbies {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* スポーツセクションのスタイル */
+section#sports {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section#description{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+section#description h2{
+    text-align: center;
+    
+}
+
+section#description h3{
+    color:#0074d9;
+}
+@media print {
+      /* ページ全体のスタイル設定 */
+      body {
+        margin: 0;
+       
+        
+      }
+      
+      main{
+          margin-top: 30px;
+      }
+
+      /* 印刷時の共通スタイル */
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+
+      p {
+        page-break-inside: avoid;
+      }
+      header{
+          display: none;
+      }
+      .sidenav{
+          display: none;
+      }
+
+      /* 任意の印刷用スタイルを追加 */
+      .print-only {
+        display: block;
+      }
+
+      /* 不要な要素を非表示にする */
+      .no-print {
+        display: none;
+      }
+      
+}
+       button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }

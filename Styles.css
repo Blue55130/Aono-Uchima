@@ -1,0 +1,230 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 20, 2023, 2:24:43 PM
+    Author     : Aono Uchima
+*/ 
+
+/* Reset some default styles */
+/* Styles.css */
+
+/* styles.css */
+
+/* 全体のスタイル */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #DDDCC4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+/* リンクのスタイル */
+a {
+    color: #333;
+    
+}
+
+a:hover {
+    color: #333;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #77787B;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+/* メインコンテンツのスタイル */
+main {
+    padding: 20px;
+    flex: 1;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #77787B;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ヘッダー内のリンクスタイル */
+header a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+header ul{
+    list-style: none;
+   margin: 0;
+   display: flex; 
+   
+   
+}
+header li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+}
+    
+
+/* メインセクションのスタイル */
+section.profile {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+/* プロフィールのスタイル */
+.description p {
+    line-height: 1.5;
+}
+
+/* 画像のスタイル */
+ section.profile img {
+    border-radius: 0; /* Remove the border-radius to make the image square */
+    border: 5px solid #77787B;
+    margin-right: 100px; /* 画像とテキストの間隔を調整 */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+
+.image-container 
+{
+    display: flex;
+    align-items: center; /* 垂直方向の中央揃え */
+}
+@importurl('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+section.profile h1
+{
+    font-size: 36px; /* h1要素の大きさを変更 */
+    margin: 0; /* デフォルトのマージンを除去 */
+    text-align: right;
+    font-family: 'Caveat', cursive;
+}
+
+.description p a:hover{
+    color: blue;
+}
+.description p a{
+    text-decoration:underline; 
+}
+
+
+/* テーブルのスタイル */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+ table, th, td {
+    border: 1px solid ;
+    border-color: #0074d9;
+}
+ th{
+    background-color: #fff;
+}
+ tr:nth-child(2n+1){
+    background-color: #FFFFF0;
+}
+
+ th, td {
+    padding: 10px;
+    text-align: left;
+    
+}
+
+ table a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+/* リストのスタイル */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* リストアイテムのスタイル */
+li {
+    margin-bottom: 10px;
+}
+
+/* 強調スタイル */
+strong {
+    font-weight: bold;
+    color: #0074d9;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #77787B; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 10px;
+  
+  
+ 
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #333;
+}
+
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
